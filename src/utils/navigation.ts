@@ -1,32 +1,36 @@
+// src/utils/navigation.ts
+
 // An array of links for navigation bar
 const navBarLinks = [
-  { name: "Home", url: "/" },
-  { name: "Products", url: "/products" },
-  { name: "Services", url: "/services" },
-  { name: "Blog", url: "/blog" },
-  { name: "Contact", url: "/contact" },
+  { name: "Home", url: "/screwFast/" },
+  { name: "Products", url: "/screwFast/products" },
+  { name: "Services", url: "/screwFast/services" },
+  { name: "Blog", url: "/screwFast/blog" },
+  { name: "Contact", url: "/screwFast/contact" },
 ];
+
 // An array of links for footer
 const footerLinks = [
   {
     section: "Ecosystem",
     links: [
-      { name: "Documentation", url: "/welcome-to-docs/" },
-      { name: "Tools & Equipment", url: "/products" },
-      { name: "Construction Services", url: "/services" },
+      { name: "Documentation", url: "/screwFast/welcome-to-docs/" },
+      { name: "Tools & Equipment", url: "/screwFast/products" },
+      { name: "Construction Services", url: "/screwFast/services" },
     ],
   },
   {
     section: "Company",
     links: [
-      { name: "About us", url: "#" },
-      { name: "Blog", url: "/blog" },
+      { name: "About us", url: "#" },  // если есть страница, тоже добавь /screwFast/about
+      { name: "Blog", url: "/screwFast/blog" },
       { name: "Careers", url: "#" },
       { name: "Customers", url: "#" },
     ],
   },
 ];
-// An object of links for social icons
+
+// An object of links for social icons (эти ссылки внешние, менять не надо)
 const socialLinks = {
   facebook: "https://www.facebook.com/",
   x: "https://twitter.com/",
